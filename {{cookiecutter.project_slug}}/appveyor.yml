@@ -19,7 +19,7 @@ matrix:
 
 
 cache:
-  - "%LOCALAPPDATA%\pip\Cache"
+  - '%LOCALAPPDATA%\pip\Cache'
 
 platform: x64
 
