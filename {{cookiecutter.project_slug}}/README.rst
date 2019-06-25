@@ -37,8 +37,7 @@ Post Template-Instantiation Steps
 
        git init
 
-2. Check for an updated versioneer. The current one only works nicely with 
-   pip<19.
+2. Check for an updated versioneer.
 
    .. code-block:: console
    
