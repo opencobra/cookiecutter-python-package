@@ -10,8 +10,7 @@ python:
 git:
   depth: 2
 
-cache:
-  - pip: true
+cache: pip
 
 branches:
   only:
