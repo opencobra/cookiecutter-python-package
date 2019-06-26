@@ -33,3 +33,8 @@ install:
 
 test_script:
   - tox
+
+notifications:
+  - provider: Email
+    on_build_success: false
+    on_build_failure: true
