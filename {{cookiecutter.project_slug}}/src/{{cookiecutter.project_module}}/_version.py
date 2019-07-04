@@ -42,8 +42,8 @@ def get_config():
     cfg.VCS = "git"
     cfg.style = "pep440"
     cfg.tag_prefix = ""
-    cfg.parentdir_prefix = "tmfa-"
-    cfg.versionfile_source = "src/tmfa/_version.py"
+    cfg.parentdir_prefix = "{{cookiecutter.project_slug}}-"
+    cfg.versionfile_source = "src/{{cookiecutter.project_module}}/_version.py"
     cfg.verbose = False
     return cfg
 
