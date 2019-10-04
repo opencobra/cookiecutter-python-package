@@ -34,6 +34,12 @@
    :target: https://github.com/ambv/black
    :alt: Black
 
+.. image:: https://readthedocs.org/projects/{{cookiecutter.project_slug}}/badge/?version=latest
+   :target: https://{{cookiecutter.project_slug}}.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+.. summary-start
+
 {{cookiecutter.project_short_description}}
 
 Post Template-Instantiation Steps
@@ -48,7 +54,7 @@ Post Template-Instantiation Steps
 2. Check for an updated versioneer.
 
    .. code-block:: console
-   
+
        pip install versioneer
        versioneer install
 
@@ -65,13 +71,13 @@ Post Template-Instantiation Steps
    so yet and link it to `Travis CI <https://travis-ci.org/>`_.
 5. Browse through the architecture decision records (``docs/adr``) if you want
    to understand details of the package design.
-6. Remove this section from the readme and describe what your package is all 
+6. Remove this section from the readme and describe what your package is all
    about.
 7. When you're ready to make a release, perform the following steps.
 
-   1. On `Travis CI <https://travis-ci.org/>`_ set the secure environment 
+   1. On `Travis CI <https://travis-ci.org/>`_ set the secure environment
       variables ``PYPI_USERNAME``, ``PYPI_PASSWORD``, and ``GITHUB_TOKEN``.
-   2. Tag your latest commit with the desired version and let Travis handle 
+   2. Tag your latest commit with the desired version and let Travis handle
       the release.
 
       .. code-block:: console
@@ -91,6 +97,8 @@ It's as simple as:
 Copyright
 =========
 
-* Copyright (c) {{cookiecutter.year}}, {{cookiecutter.full_name}}.
-* Free software distributed under the `Apache Software License 2.0 
+* Copyright © {{cookiecutter.year}}, {{cookiecutter.full_name}}.
+* Free software distributed under the `Apache Software License 2.0
   <https://www.apache.org/licenses/LICENSE-2.0>`_.
+
+.. summary-end
