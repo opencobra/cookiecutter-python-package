@@ -44,7 +44,7 @@ jobs:
     after_success: echo "Deploying..."
     deploy:
     - provider: pypi
-      cleanup: true
+      cleanup: false
       distributions: sdist bdist_wheel
       username: $PYPI_USERNAME
       password: $PYPI_PASSWORD
@@ -52,7 +52,7 @@ jobs:
         tags: true
         repo: $GITHUB_REPO
     - provider: releases
-      cleanup: true
+      cleanup: false
       token: $GITHUB_TOKEN
       release_notes: "Please see https://github.com/${GITHUB_REPO}/blob/${TRAVIS_TAG}/CHANGELOG.rst for the full release notes."
       on:
