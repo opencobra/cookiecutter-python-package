@@ -8,26 +8,28 @@ Please explain:
 
 #### Code Sample
 
-Create a [minimal, complete, verifiable example
-](https://stackoverflow.com/help/mcve).
+Create a [minimal, complete, verifiable example](https://stackoverflow.com/help/mcve).
 
+<!-- Paste your code between the ``` tickmarks below or link to a gist. -->
 ```python
-# Paste your code here or link to a gist.
 ```
 
+<!-- If there was a crash, please include the traceback between the ``` tickmarks below. -->
 ```
-# If there was a crash, please include the traceback here.
 ```
 
 ### Context
 
-Please run the following code and paste the output inside the details
-block.
+<!-- Please run the following code and paste the output between the ``` tickmarks below
+inside the details block.
 
-```
 python -c "import {{cookiecutter.project_module}};{{cookiecutter.project_module}}.show_versions()"
-```
+
+-->
 
 <details>
+
+```
+```
 
 </details>
