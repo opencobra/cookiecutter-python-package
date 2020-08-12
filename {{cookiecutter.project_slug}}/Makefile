@@ -6,7 +6,7 @@
 
 ## Apply code quality assurance tools.
 qa:
-	isort --recursive src/{{cookiecutter.project_module}} tests/ setup.py
+	isort src/{{cookiecutter.project_module}} tests/ setup.py
 	black src/{{cookiecutter.project_module}} tests/ setup.py
 
 ## Prepare a release by generating the automatic code documentation.
