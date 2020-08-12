@@ -18,8 +18,8 @@
    :target: .github/CODE_OF_CONDUCT.md
    :alt: Code of Conduct
 
-.. image:: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/workflows/CI/badge.svg
-   :target: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/workflows/CI
+.. image:: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/workflows/CI-CD/badge.svg
+   :target: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/workflows/CI-CD
    :alt: GitHub Actions
 
 .. image:: https://codecov.io/gh/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/branch/master/graph/badge.svg
