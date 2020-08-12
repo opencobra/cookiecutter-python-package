@@ -18,13 +18,9 @@
    :target: .github/CODE_OF_CONDUCT.md
    :alt: Code of Conduct
 
-.. image:: https://img.shields.io/travis/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/master.svg?label=Travis%20CI
-   :target: https://travis-ci.org/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}
-   :alt: Travis CI
-
-.. image:: https://ci.appveyor.com/api/projects/status/github/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}?branch=master&svg=true
-   :target: https://ci.appveyor.com/project/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}
-   :alt: AppVeyor
+.. image:: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/workflows/CI/badge.svg
+   :target: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/workflows/CI
+   :alt: GitHub Actions
 
 .. image:: https://codecov.io/gh/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/branch/master/graph/badge.svg
    :target: https://codecov.io/gh/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}
