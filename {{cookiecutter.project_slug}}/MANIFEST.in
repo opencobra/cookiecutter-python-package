@@ -1,4 +1,3 @@
 include README.rst
 include LICENSE
-include pyproject.toml
 include src/{{cookiecutter.project_module}}/_version.py

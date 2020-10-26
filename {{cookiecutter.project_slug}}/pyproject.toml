@@ -8,4 +8,4 @@ requires = [
 
 [tool.black]
 line-length = 88
-python-version = ['py37', 'py38']
+python-version = ['py38']
