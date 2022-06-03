@@ -8,11 +8,6 @@ qa:
 	isort src/{{cookiecutter.project_module}} tests/ setup.py
 	black src/{{cookiecutter.project_module}} tests/ setup.py
 
-.PHONY: release
-## Prepare a release by generating the automatic code documentation.
-release:
-	sphinx-apidoc -f -o docs/source/autogen src/{{cookiecutter.project_module}}
-
 ################################################################################
 # Self Documenting Commands                                                    #
 ################################################################################
