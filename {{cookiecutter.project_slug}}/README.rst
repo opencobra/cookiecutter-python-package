@@ -47,33 +47,24 @@ Post Template-Instantiation Steps
 
        git init
 
-2. Check for an updated versioneer.
-
-   .. code-block:: console
-
-       pip install versioneer
-       versioneer install
-
-   You probably have to remove the mess in ``src/{{cookiecutter.project_module}}/__init__.py``.
-
-3. Commit all the files.
+2. Commit all the files.
 
    .. code-block:: console
 
        git add .
        git commit
 
-4. Create a repository on `GitHub <https://github.com/>`_ if you haven't done
-   so yet and link it to `Travis CI <https://travis-ci.org/>`_.
-5. Browse through the architecture decision records (``docs/adr``) if you want
+3. Create a repository on `GitHub <https://github.com/>`_ if you haven't done
+   so yet.
+4. Browse through the architecture decision records (``docs/adr``) if you want
    to understand details of the package design.
-6. Remove this section from the readme and describe what your package is all
+5. Remove this section from the readme and describe what your package is all
    about.
-7. When you're ready to make a release, perform the following steps.
+6. When you're ready to make a release, perform the following steps.
 
-   1. On `Travis CI <https://travis-ci.org/>`_ set the secure environment
-      variables ``PYPI_USERNAME``, ``PYPI_PASSWORD``, and ``GITHUB_TOKEN``.
-   2. Tag your latest commit with the desired version and let Travis handle
+   1. On `GitHub <https://github.com/>`_ set the secure environment
+      variables ``PYPI_USERNAME`` and ``PYPI_PASSWORD`` to ``__token__`` and a respective PyPI API token.
+   2. Tag your latest commit with the desired version and let GitHub handle
       the release.
 
       .. code-block:: console
