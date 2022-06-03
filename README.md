@@ -10,13 +10,13 @@ Windows or Mac user, you can also use [Anaconda](https://docs.anaconda.com/anaco
 After creating a virtual environment, it's as simple as:
 
 ```
-pip install cookiecutter
-cookiecutter https://github.com/opencobra/cookiecutter-python-package
+pip install cruft
+cruft create https://github.com/opencobra/cookiecutter-python-package
 ```
 
 and answering the questions that follow.
 
 ## Copyright
 
-* Copyright (c) 2019, openCOBRA.
+* Copyright (c) 2019-2022, openCOBRA.
 * Free software distributed under the [Apache Software License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
